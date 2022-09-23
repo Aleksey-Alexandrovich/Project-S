@@ -1,0 +1,180 @@
+
+/* ----------Стили под экраны от 0 до 768 пикселей -----------------*/
+	@media(max-width: 768px){
+	.header__title {
+		font-size: 30px;
+		max-width: 500px;
+		line-height: 35px;
+	}
+	
+	.header__paragraph {
+		max-width: 500px;
+	}
+
+	.tel__number {
+		display: none;
+	}
+	.tel__text {
+		display: none;
+	}
+	.tel {
+		background-image: url("../img/Phone.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 60px;
+		height: 60px;
+		
+	}
+	.header__wrapper {
+		justify-content:space-around;
+	}
+
+
+}
+/* стили  от 510 до 0 *-------------------------*/
+@media(max-width: 580px) {
+	.header__container {
+		max-width: 100%;
+	}
+
+
+	.header__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.questions__paragraph {
+	font-size: 15px;
+	line-height: 14px;
+
+	}
+
+	.questions__title {
+
+	font-size: 24px;
+	line-height: 23px;
+	
+	}
+	
+	.questions__agreement {
+		font-size: 11px;
+	}
+
+	.questions__input {
+		max-width: 290px;
+	}
+
+
+
+	.footer__logo {
+		
+		margin-bottom: 60px;
+	}
+	.tel {
+		
+		align-self: flex-start;
+	}
+
+
+	.footer__made {
+		order:1;
+		width: 100%;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 17px;
+		color: #FFFFFF;
+		text-align: center;
+		position: relative;
+	}
+
+	.footer__made::before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 47px;
+		background-color: #2A2C3F;
+		opacity: 0.6;
+		z-index: 2;
+		position: absolute;
+		
+	}
+
+
+}
+
+/* Медиа от 425 до 0 *---------------------------------------------*/
+@media(max-width: 425px) {
+
+	.header {
+		padding: 16px 0px 65px 0px;
+	}
+
+
+	.header__container {
+		max-width: 100%;
+		padding: 0px 15px;
+	}
+
+	.header__wrapper {
+		
+		justify-content: space-between;
+	}
+
+	.logo {
+		width: 30px;
+		height: 30px;
+	}
+
+	.tel {
+		width: 24px;
+		height: 24px;
+	}
+
+	.header__title {
+	font-size: 20px;
+	line-height: 23px;
+	margin-bottom: 23px;
+	}
+
+	.header__paragraph {
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 54px;
+	}
+
+	.header__button {
+		width: 160px;
+		height: 38px;
+		font-size: 16px;
+	}
+
+	.advantages {
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
+
+	.advantages__title {
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	.advantages__paragraph {
+		font-size: 12px;
+		line-height: 17px;
+	}
+	.advantages__subtitle {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.advantages__list {
+		gap: 40px;
+	}
+
+	.questions__title {
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+}

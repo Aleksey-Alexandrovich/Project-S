@@ -1,0 +1,50 @@
+.footer {
+	
+	background: #2F324B;
+	padding: 45px 0px;
+}
+
+.header__wrapper-zero {
+	margin-bottom: 0;
+	align-items: center;
+}
+
+.footer__copyright {
+	max-width: 127px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 17px;
+	color: #FFFFFF;
+
+}
+
+.footer__logo {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 19px;
+	align-items: center;
+}
+
+.footer__made {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 17px;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+	.header__container--padding--zero {
+		padding: 0px 30px;
+	}
+	.tel__number {
+		font-size: 21px;
+		line-height: 25px;
+	}
+
+	.tel__text {
+		font-size: 13px;
+		line-height: 15px;
+	}
+}
+

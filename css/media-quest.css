@@ -1,0 +1,41 @@
+@media(max-width: 425px) {
+	.questions {
+		padding:30px 0px;
+	}
+
+	.questions__container {
+		padding: 0px 15px;
+	}
+
+	.questions__button {
+		margin-bottom: 30px;
+		
+	}
+
+	.questions__title {
+		font-size: 20px;
+		line-height: 23px;
+		margin-bottom: 10px;
+	}
+	
+	.questions__paragraph {
+		font-size: 12px;
+		line-height: 14px;
+		margin-bottom: 35px;
+	}
+
+	.questions__input {
+		padding-left: 18px;
+		max-width: 290px;
+		height: 28px;
+		font-size: 14px;
+	}
+
+	.questions__agreement {
+		font-size: 11px;
+		line-height: 13px;
+		text-align: center;
+		
+	}
+
+}

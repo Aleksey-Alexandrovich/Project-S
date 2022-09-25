@@ -22,6 +22,11 @@
 	align-items: center;
 }
 
+.header__wrapper--type--zero{
+	margin-bottom: 0;
+}
+
+
 .tel {
 	position: relative;
 	display: flex;
@@ -115,6 +120,12 @@
 
 
 @media (max-width: 1024px) {
+
+	.header__wrapper{
+		margin-bottom: 0;
+	}
+	
+
 	.header__container {
 		max-width: 1024px;
 		padding: 0px 30px;
@@ -162,6 +173,11 @@
 	.header__wrapper {
 		margin-bottom: 70px;
 	}
+
+	.header__wrapper--type--zero {
+		margin-bottom: 0;
+	}
+	
 
 	.header__content-container {
 		max-width: 780px;

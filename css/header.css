@@ -1,13 +1,10 @@
 .header {
-	
 	background-image: url("../img/Background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	padding-top: 40px;
 	padding-bottom: 120px;
-	
-
 	
 }
 
@@ -22,6 +19,7 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-bottom: 120px;
+	align-items: center;
 }
 
 .tel {
@@ -31,8 +29,6 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	border: none;
-	background-color: transparent;
 	
 }
 
@@ -41,6 +37,9 @@
 	line-height: 19px;
 	text-align: center;
 	color: #FFFFFF;
+	border: none;
+	background-color: transparent;
+
 }
 
 .tel__text::after {
@@ -50,8 +49,8 @@
 	height: 1px;
 	background-color: rgba(255, 255, 255, 0.5);
 	position: absolute;
-	top: 59px;
-	left: 42px;
+	top: 53px;
+	left: 35px;
 }
 
 
@@ -89,7 +88,6 @@
 	color: rgba(255, 255, 255, 0.75);
 }
 .header__button {
-	
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 23px;

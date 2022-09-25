@@ -4,10 +4,7 @@
 	padding: 45px 0px;
 }
 
-.header__wrapper-zero {
-	margin-bottom: 0;
-	align-items: center;
-}
+
 
 .footer__copyright {
 	max-width: 127px;
@@ -31,6 +28,7 @@
 	line-height: 17px;
 	color: #FFFFFF;
 	opacity: 0.5;
+
 }
 
 .footer__special {

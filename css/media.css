@@ -77,27 +77,33 @@
 	}
 
 
+	.header__container--padding--zero {
+		max-width: 100%;
+
+	}
+
+	.footer {
+		padding-bottom: 0;
+	}
+
 	.footer__made {
-		order:1;
+		display: none;
+	}
+
+	.footer__special {
+		visibility: visible;
+		min-height: 47px;
 		width: 100%;
 		font-weight: 500;
 		font-size: 12px;
 		line-height: 17px;
 		color: #FFFFFF;
-		text-align: center;
-		position: relative;
-	}
+		opacity: 0.5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background:#2A2C3F;
 
-	.footer__made::before {
-		content: "";
-		display: block;
-		width: 100%;
-		height: 47px;
-		background-color: #2A2C3F;
-		opacity: 0.6;
-		z-index: 2;
-		position: absolute;
-		
 	}
 
 

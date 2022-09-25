@@ -33,6 +33,11 @@
 	opacity: 0.5;
 }
 
+.footer__special {
+	visibility: hidden;
+	height: 0;
+}
+
 @media (max-width: 1024px) {
 	.header__container--padding--zero {
 		padding: 0px 30px;
@@ -47,4 +52,5 @@
 		line-height: 15px;
 	}
 }
+
 

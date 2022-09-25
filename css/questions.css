@@ -109,6 +109,21 @@
 	}
 
 }
+
+@media(max-width: 580px) {
+	.questions {
+		background-position: center center;
+		background-size:cover;
+	}
+
+	.questions__button {
+		max-width: 174px;
+		height: 38px;
+	}
+}
+
+
+
 /*-------------------медиа questions под 320 --------------*/
 
 

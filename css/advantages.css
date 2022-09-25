@@ -1,6 +1,6 @@
 
 .advantages {
-	
+	min-height: 596px;
 	padding: 70px 0px;
 }
 .advantages__container {
@@ -9,9 +9,7 @@
 	margin: 0 auto;
 
 }
-.advantages__wrapper {
 
-}
 .advantages__description {
 	margin-bottom: 50px;
 }
@@ -54,7 +52,7 @@
 .advantages__paragraph {
 
 	font-size: 18px;
-	line-height: 25px;
+	line-height: 23px;
 	max-width: 724px;
 	color: #383A4C;
 	text-align: center;

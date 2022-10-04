@@ -12,19 +12,22 @@
 	}
 
 	.tel__number {
-		display: none;
-	}
-	.tel__text {
-		display: none;
-	}
-	.tel {
 		background-image: url("../img/Phone.svg");
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 60px;
 		height: 60px;
+		font-size: 0;
 		
 	}
+
+ 
+	.tel__text {
+		display: none;
+	}
+
+
+
 	.header__wrapper {
 		justify-content:space-around;
 	}

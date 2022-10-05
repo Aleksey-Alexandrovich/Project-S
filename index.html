@@ -88,21 +88,21 @@
 		</section>
 
 		<section class="questions">
-			<div class="questions__container">
+			<form class="questions__container" action="https://jsonplaceholder.typicode.com/posts" method="post">
 				<div class="questions__wrapper">
 					<h2 class="questions__title">Остались вопросы?</h2>
 					<p class="questions__paragraph">Оставьте номер телефона, и мы перезвоним вам</p>
 
 					<div class="questions__box">
-						<input type="text" placeholder="Ваше имя" class="questions__input">
-						<input type="tel" placeholder="Телефон" class="questions__input">
-						<input type="email" placeholder="E-mail" class="questions__input">
+						<input type="text" placeholder="Ваше имя" class="questions__input" name="name" required>
+						<input type="tel" placeholder="Телефон" class="questions__input" name="tel" required>
+						<input type="email" placeholder="E-mail" class="questions__input" name="email" required>
 					</div>
 
-					<button class="questions__button" type="button">позвоните мне</button>
+					<button class="questions__button" type="submit">позвоните мне</button>
 					<p class="questions__agreement">Я даю своё <a href="#" class="questions__link">согласие</a> на обработку моих персональных данных.</p>
 				</div>
-			</div>
+			</form>
 		</section>
 	</main>
 		<footer class="footer">

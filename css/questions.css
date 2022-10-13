@@ -3,6 +3,8 @@
 	background-image: url("../img/background2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center bottom;
+	
 }
 
 .questions__container {
@@ -89,6 +91,13 @@
 /*------------------------------media query max-width 1024px------------------------*/
 
 @media (max-width: 1024px) {
+	.questions {
+		background-image: url("../img/back1024.png");
+		padding-top: 70px;
+		padding-bottom: 56px;
+	}
+
+
 	.questions__title {
 		font-size: 32px;
 		line-height: 38px;
@@ -107,6 +116,10 @@
 		font-size: 17px;
 		line-height: 20px;
 	}
+	.questions__button {
+		margin-bottom: 30px;
+	}
+
 
 }
 
@@ -114,6 +127,7 @@
 	.questions {
 		background-position: center center;
 		background-size:cover;
+		background-image: url("../img/back320.png");
 	}
 
 	.questions__button {
